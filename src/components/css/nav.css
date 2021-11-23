@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 40px;
+    border-bottom: 1px solid var(--grayish-blue);
+    /* box-shadow: 0 2px 10px var(--grayish-blue); */
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile--cart {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#cart {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#profile figure {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profile figure img {
+    width: 100%;
+}
